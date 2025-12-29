@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a192f; /* Dark Navy from reference */
+    color: #cbd5e1; /* Slate 300 text */
+    font-family: 'Inter', sans-serif;
+}
