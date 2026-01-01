@@ -21,7 +21,7 @@ const NavBar = () => {
         >
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <div className="text-accent font-bold text-xl cursor-pointer">
-                    Nilesh Kumar <span className="text-teal-300">|</span> Portfolio
+                    Nilesh Kumar
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
@@ -36,9 +36,14 @@ const NavBar = () => {
                             <span className="text-teal-300 mr-1">0{index + 1}.</span> {item}
                         </Link>
                     ))}
-                    <button className="px-4 py-2 border border-teal-300 text-teal-300 rounded hover:bg-teal-300/10 transition-colors">
+                    <a
+                        href="/nilesh%20resume%202026.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 border border-teal-300 text-teal-300 rounded hover:bg-teal-300/10 transition-colors"
+                    >
                         Resume
-                    </button>
+                    </a>
                 </div>
             </div>
         </motion.nav>

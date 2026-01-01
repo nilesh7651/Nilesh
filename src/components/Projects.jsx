@@ -7,19 +7,19 @@ const Projects = () => {
     const featuredProjects = [
         {
             title: "Mano India Website",
-            desc: "A full-stack website developed for Mano India, likely involving venue booking or event management features based on recent activity. Built with modern web technologies.",
-            tech: ["JavaScript", "React", "Node.js"],
+            desc: "A comprehensive full-stack venue booking and event management platform. Features include real-time availability checking, secure payment integration, and an admin dashboard for venue owners.",
+            tech: ["React", "Node.js", "MongoDB", "Express"],
             github: "https://github.com/nilesh7651/Mano-india-website",
             external: "#",
             image: "/images/project_manoindia.png"
         },
         {
             title: "Multimodal Doc Understanding",
-            desc: "An AI/ML project focused on understanding documents using multimodal approaches (text and image). Likely involves OCR and NLP techniques.",
-            tech: ["Python", "Machine Learning", "NLP"],
+            desc: "An advanced AI system focused on extracting and understanding information from complex documents using OCR and Vision Language Models. integrating computer vision with natural language processing.",
+            tech: ["Python", "PyTorch", "Transformers", "OCR"],
             github: "https://github.com/nilesh7651/multimodal-document-understanding",
             external: "#",
-            image: "/images/project_spotify.png"
+            image: "/images/multimodal_doc_project.png"
         }
     ];
 
@@ -36,24 +36,14 @@ const Projects = () => {
             tech: ["Python", "TensorFlow/PyTorch"],
             github: "https://github.com/nilesh7651/imageclassification"
         },
-        {
-            title: "Techshop",
-            desc: "An e-commerce platform or shop interface built with HTML and presumably other web tech.",
-            tech: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/nilesh7651/Techshop"
-        },
+
         {
             title: "DevConnector",
             desc: "Social network for developers. A MERN stack application.",
             tech: ["MongoDB", "Express", "React", "Node"],
             github: "https://github.com/nilesh7651/DevConnector"
         },
-        {
-            title: "Tailwind Landing Page",
-            desc: "A responsive landing page built using Tailwind CSS utility classes.",
-            tech: ["HTML", "Tailwind CSS"],
-            github: "https://github.com/nilesh7651/tailwind-landing-page"
-        }
+
     ];
 
     return (

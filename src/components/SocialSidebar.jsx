@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 const SocialSidebar = () => {
     const socials = [
-        { icon: <FiGithub />, link: "https://github.com" },
+        { icon: <FiGithub />, link: "https://github.com/nilesh7651/" },
         { icon: <FiInstagram />, link: "https://instagram.com" },
         { icon: <FiTwitter />, link: "https://twitter.com" },
-        { icon: <FiLinkedin />, link: "https://linkedin.com" },
+        { icon: <FiLinkedin />, link: "https://www.linkedin.com/in/nilesh-kumar-b0a931246" },
     ];
 
     return (

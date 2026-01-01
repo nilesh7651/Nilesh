@@ -25,9 +25,12 @@ function App() {
         </main>
 
         <footer className="py-6 text-center text-xs font-mono text-slate-500 hover:text-teal-300 transition-colors cursor-pointer">
-          <a href="https://github.com/nileshkumar" target="_blank" rel="noopener noreferrer">
-            Designed & Built by Nilesh Kumar
-          </a>
+          <div className="flex flex-col gap-2">
+            <a href="https://github.com/nileshkumar" target="_blank" rel="noopener noreferrer">
+              Designed & Built by Nilesh Kumar
+            </a>
+            <p>© 2025 Nilesh Kumar. All rights reserved.</p>
+          </div>
         </footer>
       </div>
     </div>

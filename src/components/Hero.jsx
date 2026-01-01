@@ -20,34 +20,30 @@ const Hero = () => {
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 0.9 }}
-                        className="text-5xl md:text-7xl font-bold text-slate-100 mb-4 tracking-tight"
+                        className="text-5xl md:text-7xl font-bold text-slate-100 mb-6 tracking-tight"
                     >
                         Nilesh Kumar.
                     </motion.h1>
-                    <motion.h2
-                        initial={{ y: 20, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: 1.0 }}
-                        className="text-4xl md:text-6xl font-bold text-slate-400 mb-8"
-                    >
-                        I build web & AI solutions.
-                    </motion.h2>
                     <motion.p
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 1.1 }}
-                        className="text-slate-400 text-lg max-w-xl mb-12 leading-relaxed"
+                        className="text-slate-400 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed"
                     >
-                        I'm a student focused on <span className="text-teal-300">Artificial Intelligence</span> and <span className="text-teal-300">Web Development</span>. I enjoy building software that solves real-world problems.
+                        I’m a computer engineering student and AI enthusiast passionate about building intelligent, user-focused web applications.
+                        <br className="hidden md:block" />
+                        I love working with machine learning, web technologies, and real-world problem solving, turning ideas into practical digital solutions.
                     </motion.p>
-                    <motion.button
+                    <motion.a
+                        href="mailto:nileshsingh7651@gmail.com"
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 1.2 }}
-                        className="px-8 py-4 border border-teal-300 text-teal-300 rounded hover:bg-teal-300/10 transition-colors font-mono"
+                        className="inline-flex items-center gap-2 px-8 py-4 border border-teal-300 text-teal-300 rounded hover:bg-teal-300/10 transition-colors font-mono text-lg"
                     >
-                        View My Work
-                    </motion.button>
+                        <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        Let's connect
+                    </motion.a>
                 </div>
 
                 {/* Particle Animation */}
