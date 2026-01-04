@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nilesh-portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nilesh Kumar",
+        "url": "https://nileshk.me",
+        "image": "https://nileshk.me/images/profile.jpg",
+        "sameAs": [
+          "https://github.com/nilesh7651",
+          "https://www.linkedin.com/in/nilesh-kumar-b0a931246",
+          "https://instagram.com",
+          "https://twitter.com"
+        ],
+        "jobTitle": "Full Stack Developer",
+        "description": "Portfolio of Nilesh Kumar, a Full Stack Developer and AI/ML enthusiast."
+      }
+    </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

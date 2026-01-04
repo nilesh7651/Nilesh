@@ -1,4 +1,6 @@
 import React from "react";
+import { HelmetProvider } from 'react-helmet-async';
+import SEO from "./components/SEO";
 import NavBar from "./components/NavBar";
 import SocialSidebar from "./components/SocialSidebar";
 import EmailSidebar from "./components/EmailSidebar";
@@ -10,30 +12,33 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-[#0a192f] min-h-screen text-slate-400 selection:bg-teal-300 selection:text-[#0a192f]">
-      <NavBar />
-      <div className="w-full h-full">
-        <SocialSidebar />
-        <EmailSidebar />
+    <HelmetProvider>
+      <div className="bg-[#0a192f] min-h-screen text-slate-400 selection:bg-teal-300 selection:text-[#0a192f]">
+        <SEO />
+        <NavBar />
+        <div className="w-full h-full">
+          <SocialSidebar />
+          <EmailSidebar />
 
-        <main className="max-w-[1600px] mx-auto px-6 md:px-24">
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-        </main>
+          <main className="max-w-[1600px] mx-auto px-6 md:px-24">
+            <Hero />
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
+          </main>
 
-        <footer className="py-6 text-center text-xs font-mono text-slate-500 hover:text-teal-300 transition-colors cursor-pointer">
-          <div className="flex flex-col gap-2">
-            <a href="https://github.com/nileshkumar" target="_blank" rel="noopener noreferrer">
-              Designed & Built by Nilesh Kumar
-            </a>
-            <p>© 2025 Nilesh Kumar. All rights reserved.</p>
-          </div>
-        </footer>
+          <footer className="py-6 text-center text-xs font-mono text-slate-500 hover:text-teal-300 transition-colors cursor-pointer">
+            <div className="flex flex-col gap-2">
+              <a href="https://github.com/nileshkumar" target="_blank" rel="noopener noreferrer">
+                Designed & Built by Nilesh Kumar
+              </a>
+              <p>© 2025 Nilesh Kumar. All rights reserved.</p>
+            </div>
+          </footer>
+        </div>
       </div>
-    </div>
+    </HelmetProvider>
   );
 }
 
